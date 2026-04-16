@@ -1,0 +1,54 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to bottom, #f7f8fc, #eaeaf2);
+    color: #333;
+    margin: 0;
+    text-align: center;
+}
+
+/* Titel */
+h1 {
+    margin-top: 60px;
+    font-size: 42px;
+    color: #4a4a6a;
+}
+
+/* Score & Round */
+p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+/* Buttons allgemein */
+button {
+    padding: 12px 24px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid #4a4a6a;
+    border-radius: 25px;
+    background-color: #c7b8ea;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Hover Effekt */
+button:hover {
+    background-color: #a594d6;
+    transform: scale(1.05);
+}
+
+/* Ergebnis */
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Container */
+body::before {
+    content: "";
+    display: block;
+    height: 40px;
+}
+
